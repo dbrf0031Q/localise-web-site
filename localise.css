@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1290px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    font-size: 15px;
+    
+  }
+  nav.ul
+  {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+   }
+  li {
+    display: inline;
+    color: black;
+    font-size: 15px;
+    weight:400px;
+    padding-left: 100px; 
+  }
+  a {
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    weight:400px;   
+  }
+  .header-localise {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+  .button-white {
+    padding: 15px 40px;
+    border-color: black;
+    margin-right: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-weight: bold;
+   
+  }
+  .button-red {
+    background-color:#FF6336;
+    color: aliceblue;
+    border-color: #FF6336;;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 40px; 
+  }
+  .logodiv{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  h3 {
+    Weight:600px;
+    font-size:65px;
+  }
+
+  .header-top-right {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  .container-title {
+      flex: 1; 
+  }
+ 
+  .localization-companies { 
+    Height:435px; 
+    background-color: #FF9C7D;
+  }
+  .tool { 
+  font-size: 60px;
+  margin-left: 285px;
+  width: 720px;
+  }
+  .container-center {
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1290px;
+    text-align: center;
+  }
+  
+.localization-definition {
+  width: 471px;
+  font-size: 25px;
+ }
+ .try-all {
+  width: 369px;
+  font-size: 15px;
+  margin: 15px;
+ }
+ .whylocalize-sec {
+  height: 1033;
+  background-color: #FFF8E4;
+ }
+ 
+ .whylocalize-wrapper{ 
+ display: flex;
+ flex-wrap: wrap;
+ max-width: 1290px;
+}
+ .whylocalize-div-card { 
+ flex: 1 0 16.6%;
+}
+.whylocalize-header-div { 
+  flex: 1;
+ }
+ .whylocalize-header-main { 
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 120px;
+ }
+ .whylocalize-header { 
+  font-size: 25px;
+  font-weight: 600;
+ }
+ .whylocalize-text { 
+  font-size: 18px;
+  font-weight: 400;
+ }
+ .localization-image-div 
+ {display: flex;
+ align-items: right;
+ gap: 32px; }
+
+ .content-footer {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 100%; 
+}
+.div-tool {
+  align-self: flex-start;
+  margin: 30px;
+ 
+  
+}
+.logo-for-footer-div {
+  align-self: flex-end;
+  width: 100%; 
+
+}
+.beige{
+ height: 2528;
+
+}
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  width:0 auto;
+  
+}
+
+.tort-descr {
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 30px;
+  padding: 47px;
+  
+}
+.tort-div {
+  width: 809px;
+  padding: 20px;
+  display: inline-flex;
+  
+}
+.tort-text-div {
+  width: 481px;
+  padding: 20px;
+  margin-left: 47px;
+ 
+}
+.beige-cards {
+display: flex;
+flex-wrap: wrap;
+width: 1290px;
+margin-left: 15px;
+margin-right: 15px;
+align-items: center;
+}
+ 
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  
+}
+
+.image {
+    flex: 1 0 50%; 
+    background-color: #FFF8E4;
+}
+.text {
+flex: 1 0 50%; 
+}
+h5 {
+ font-size: 50px;
+ text-align: left;
+ margin: 100px;
+}
+h6 {
+  font-size: 20px;
+  text-align: left;
+  margin: 100px;
+  font-weight: 600;
+ }
+.card-text {
+  font-size:20px;
+  margin: 100px;
+ }
+
+.boost {
+  height: 998px;
+
+ }
+ .container-boost {
+ display: flex;
+ flex-wrap: wrap;
+ width: 1290px; 
+ text-align: center;
+ }
+
+ .boost-card {
+  flex: 1 0 33.33%;
+  gap: 60px;
+  align-self: center;
+}
+.boostheader{
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 154px;
+
+ }
+ .boostp {
+  font-size: 20px;
+  font-weight: 400;
+  width: 409px;
+  text-align: left;
+ }
+.Learn {
+  font-size: 20px;
+  font-weight: 400;
+  
+}
+.Learn-ul {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  
+}
+a.links.Learn {
+ font-style: oblique;
+  
+}
+.manrevolut {
+ background-color:#C9E8F2; 
+ height: 468px;
+ }
+ .portraitm {
+  width: 310px;
+  height : 310px;
+  }
+  .revolut-photo {
+    width: 310px;
+    height : 310px;
+    }
+    .tort  {
+      width: o auto;
+      height : 332px;
+      background-color: #DABC98; }
+      .bird {
+        height : 1033px;
+        align-items: center;
+        width: 1440px;
+         }
+         .bird-image {
+          height : 445px;
+          
+           }
+         .birdheader  {
+          font-size: 65px;
+          font-weight: 600;
+          width: 791px;
+          }
+          .bird-text {
+            font-size: 25px;
+            font-weight: 400;
+            text-align: center;
+            width: 539px;
+            }
+            .bird-div {
+             display: flex;
+             flex-wrap: wrap;
+             width: 1290px;
+             margin-left: 15px;
+             margin-right: 15px;
+             justify-content: center;
+              }
+              .bird-image-div {
+                width: 1290px;
+                justify-content: center;
+                
+                }
+                
+                .integ-button  {background-color:#FF6336;
+                color: aliceblue;
+                border-color: #FF6336;;
+                font-weight: bold;
+                cursor: pointer;
+                padding: 16px 20px; 
+                align-items: center;
+                  }
+                  .integ-button-div  {
+                  justify-content: center;
+                  align-items: center;
+                  }
+
+                 .easy-localization  {
+                  height: 603px;
+                  background-color:#FF9C7D ;
+                  align-items: center;
+                  }
+                  .easy-loc-text{
+                  font-size: 20px; 
+                  font-weight: 400;
+                  align-items: center;
+                }
+                .try-button-black {
+                color: rgb(254, 254, 254);
+                border-color: #000000;;
+                background-color: #000000;
+                font-weight: bold;
+                cursor: pointer;
+                padding: 16px 20px; 
+                align-items: center; }
+                .easy-header{
+                 font-size: 65px;
+                 padding-top: 150px;
+                  }
+                  .last-page {
+                  height: 900px;
+                   }
+                   .last-page-image{
+                  padding-top: 92px;
+                  width: 1330px;
+                    }
+                    .Learn a {
+                      text-decoration: underline;
+                  }
+                  .quatotion  {
+                    font-size: 30px;
+                    text-align: left;
+                    font-weight: 400;
+                    font-style: Graphik LC TT;
+                   
+                }
+                .revolut-text-logo {
+                 
+              }
+              .revolut-text  {
+                max-width: 920px;
+                padding: 110px;
+            }
+            .rev-div {
+              height: 72px;
+              padding: 20px;
+          }
